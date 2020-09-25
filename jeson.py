@@ -1,6 +1,6 @@
 import json
 
-data = """
+data = '''
 
 "name" : "Chuck",
 "phone" : {
@@ -10,8 +10,7 @@ data = """
 "email" : {
     "hide" : "yes"
 }
-
-"""
+'''
 
 info = json.loads(data)
 print('Name:', info["name"])

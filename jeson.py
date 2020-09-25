@@ -1,14 +1,14 @@
 import json
 
 data = '''
-
+{
 "name" : "Chuck",
 "phone" : {
     "type" : "intl",
     "number" : "0779395415"
 },
 "email" : {
-    "hide" : "yes"
+    "hide" : "yes"}
 }
 '''
 

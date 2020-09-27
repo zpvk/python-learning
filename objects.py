@@ -12,3 +12,5 @@ class PartyAnimal:
         print('I am destructed',self.x)
 
 an = PartyAnimal()
+an.party()
+an.party()

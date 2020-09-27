@@ -11,4 +11,4 @@ class PartyAnimal:
     def __del__(self):
         print('I am destructed',self.x)
 
-an = 
+an = PartyAnimal()

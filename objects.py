@@ -1,6 +1,7 @@
 class PartyAnimal:
     x = 0
 
+    ##this one runs while stating of the class
     def __init__(self):
         print('I am constructed')
 

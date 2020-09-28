@@ -2,7 +2,7 @@
 # @Author: Rohan Kumara
 # @Date:   2020-09-28 23:18:52
 # @Last Modified by:   Rohan Kumara
-# @Last Modified time: 2020-09-28 23:51:47
+# @Last Modified time: 2020-09-29 00:32:47
 
 
 import sqlite3
@@ -25,5 +25,15 @@ for line in fh:
     cur.execute('SELECT count FROM Counts WHERE org = ? ', (email,)')
     row = cur.fetchone()
     if row in None :
-        cur.execute('')
+        cur.execute('INSERT INTO Counts (org, count) VALUES (?, 1)',(email,))
+    else:
+        cur.execute('UPDATE Counts SET count = count + 1 WHERE org = ?', (email,))
+    conn.commit()
     
+#https://www.sqlite.org/lang_select.html
+sqlstr = 'SELECT org, count FROM Counts ORDER BY count DESC LIMIT 100'
+
+for row in cur.execute(sqlstr):
+    print(str(row[0]), row[1])
+
+cur.close()

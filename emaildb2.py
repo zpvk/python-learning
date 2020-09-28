@@ -2,7 +2,7 @@
 # @Author: Rohan Kumara
 # @Date:   2020-09-28 23:18:52
 # @Last Modified by:   Rohan Kumara
-# @Last Modified time: 2020-09-29 00:54:10
+# @Last Modified time: 2020-09-29 01:20:54
 
 
 import sqlite3
@@ -22,16 +22,18 @@ for line in fh:
     if not line.startswith('From: '): continue
     pieces = line.split()
     email = pieces[1]
-    cur.execute('SELECT count FROM Counts WHERE org = ? ', (email,))
+    org = email.split()
+    dom = org[len(org)-1]
+    cur.execute('SELECT count FROM Counts WHERE org = ? ', (dom,))
     row = cur.fetchone()
     if row is None :
-        cur.execute('INSERT INTO Counts (org, count) VALUES (?, 1)',(email,))
+        cur.execute('INSERT INTO Counts (org, count) VALUES (?, 1)',(dom,))
     else:
-        cur.execute('UPDATE Counts SET count = count + 1 WHERE org = ?', (email,))
-    conn.commit()
+        cur.execute('UPDATE Counts SET count = count + 1 WHERE org = ?', (dom,))
+conn.commit()
     
 #https://www.sqlite.org/lang_select.html
-sqlstr = 'SELECT org, count FROM Counts ORDER BY count DESC LIMIT 10'
+sqlstr = 'SELECT org, count FROM Counts ORDER BY count DESC LIMIT 1000'
 
 for row in cur.execute(sqlstr):
     print(str(row[0]), row[1])

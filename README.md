@@ -1,2 +1,2 @@
 # python-learning
-All python
+All python Learnig Stuff for Students

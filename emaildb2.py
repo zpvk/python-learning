@@ -2,7 +2,7 @@
 # @Author: Rohan Kumara
 # @Date:   2020-09-28 23:18:52
 # @Last Modified by:   Rohan Kumara
-# @Last Modified time: 2020-09-29 01:22:33
+# @Last Modified time: 2020-09-29 01:28:17
 
 
 import sqlite3
@@ -22,7 +22,7 @@ for line in fh:
     if not line.startswith('From: '): continue
     pieces = line.split()
     email = pieces[1]
-    org = email.split()
+    org = email.split('@')
     dom = org[len(org)-1]
     cur.execute('SELECT count FROM Counts WHERE org = ? ', (dom,))
     row = cur.fetchone()

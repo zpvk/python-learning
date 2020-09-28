@@ -2,12 +2,12 @@
 # @Author: Rohan Kumara
 # @Date:   2020-09-28 23:18:52
 # @Last Modified by:   Rohan Kumara
-# @Last Modified time: 2020-09-29 01:20:54
+# @Last Modified time: 2020-09-29 01:22:33
 
 
 import sqlite3
 
-conn = sqlite3.connect('emaildb.sqlite.sqlite')
+conn = sqlite3.connect('email1.sqlite')
 cur = conn.cursor()
 
 cur.execute('DROP TABLE IF EXISTS Counts')

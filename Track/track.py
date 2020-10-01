@@ -61,3 +61,6 @@ for entry in all:
 
     if name is None or artist is None or album is None : 
         continue
+
+    print(name, artist, album, count, rating, length)
+

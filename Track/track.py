@@ -51,3 +51,10 @@ all = stuff.findall('dict/dict/dict')
 print('Dict count:', len(all))
 for entry in all:
     if ( lookup(entry, 'Track ID') is None ) : continue
+
+    name = lookup(entry, 'Name')
+    artist = lookup(entry, 'Artist')
+    album = lookup(entry, 'Album')
+    count = lookup(entry, 'Play Count')
+    rating = lookup(entry, 'Rating')
+    length = lookup(entry, 'Total Time')

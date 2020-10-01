@@ -58,3 +58,6 @@ for entry in all:
     count = lookup(entry, 'Play Count')
     rating = lookup(entry, 'Rating')
     length = lookup(entry, 'Total Time')
+
+    if name is None or artist is None or album is None : 
+        continue

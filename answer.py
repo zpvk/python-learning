@@ -36,4 +36,6 @@ class Gaussian():
         
         return self.mean
 
+
         
+    def calculate_stdev(self, sample=True):

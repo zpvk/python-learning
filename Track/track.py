@@ -70,7 +70,7 @@ for entry in all:
     cur.execute('SELECT id FROM Artist WHERE name = ? ', (artist, ))
     artist_id = cur.fetchone()[0]
 
-        cur.execute('''INSERT OR REPLACE INTO Track
+    cur.execute('''INSERT OR REPLACE INTO Track
         (title, album_id, len, rating, count) 
         VALUES ( ?, ?, ?, ?, ? )''', 
         ( name, album_id, length, rating, count ) )

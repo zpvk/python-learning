@@ -31,4 +31,4 @@ class TestGaussianClass(unittest.TestCase):
         self.assertEqual(gaussian_sum.mean, 55)
         self.assertEqual(gaussian_sum.stdev, 5)
 
-    
+    def test_repr(self):

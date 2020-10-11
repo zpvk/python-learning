@@ -130,3 +130,16 @@ class Gaussian():
             list: y values for the pdf plot
             
         """
+        #TODO: Nothing to do for this method. Try it out and see how it works.
+        
+        mu = self.mean
+        sigma = self.stdev
+
+        min_range = min(self.data)
+        max_range = max(self.data)
+        
+         # calculates the interval between x values
+        interval = 1.0 * (max_range - min_range) / n_spaces
+
+        x = []
+        y = []

@@ -144,3 +144,4 @@ class Gaussian():
                     n_spaces (int): number of data points 
                             
         Returns:
+            list: x values for the pdf plot

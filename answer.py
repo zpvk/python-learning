@@ -27,3 +27,7 @@ class Gaussian():
                 
         Returns:
             float: mean of the data set
+        
+            
+        """
+        avg = 1.0 * sum(self.data) / len(self.data)

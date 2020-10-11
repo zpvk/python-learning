@@ -33,3 +33,31 @@ class Gaussian():
         self.mean = avg
         
         return self.mean
+            def calculate_stdev(self, sample=True):
+
+        """Method to calculate the standard deviation of the data set.
+        
+        Args: 
+            sample (bool): whether the data represents a sample or population
+        
+        Returns: 
+            float: standard deviation of the data set
+    
+        """
+        if sample:
+            n = len(self.data) - 1
+        else:
+            n = len(self.data)
+            
+        mean = self.mean
+        
+        sigma = 0
+        
+        for d in self.data:
+            sigma += (d-mean) ** 2
+        
+        sigma = math.sqrt(sigma / n)
+        
+        self.stdev = sigma
+        
+        return self.stdev

@@ -139,3 +139,4 @@ class Gaussian():
 
         """Function to plot the normalized histogram of the data and a plot of the 
                 probability density function along the same range
+                

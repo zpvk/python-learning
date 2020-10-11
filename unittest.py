@@ -24,4 +24,4 @@ class TestGaussianClass(unittest.TestCase):
         self.assertEqual(round(self.gaussian.stdev, 2), 88.55, 'population standard deviation incorrect')
 
     def test_add(self):
-        
+        gaussian_one = Gaussian(25, 3)

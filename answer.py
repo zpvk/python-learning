@@ -46,3 +46,5 @@ class Gaussian():
             sample (bool): whether the data represents a sample or population
                     
         Returns: 
+        float: standard deviation of the data set
+    

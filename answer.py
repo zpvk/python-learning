@@ -19,3 +19,5 @@ class Gaussian():
         
     
     def calculate_mean(self):
+    
+        """Function to calculate the mean of the data set.

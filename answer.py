@@ -168,3 +168,5 @@ class Gaussian():
             tmp = min_range + interval*i
             x.append(tmp)
             y.append(self.pdf(tmp))
+            
+        # make the plots

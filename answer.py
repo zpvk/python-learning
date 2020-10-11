@@ -53,3 +53,5 @@ class Gaussian():
         if sample:
             n = len(self.data) - 1
         else:
+                        n = len(self.data)
+    

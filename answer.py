@@ -55,3 +55,4 @@ class Gaussian():
         else:
             n = len(self.data)
     
+        mean = self.mean

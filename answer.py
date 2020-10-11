@@ -174,4 +174,4 @@ class Gaussian():
         fig.subplots_adjust(hspace=.5)
         axes[0].hist(self.data, density=True)
         axes[0].set_title('Normed Histogram of Data')
-                axes[0].set_ylabel('Density')
+        axes[0].set_ylabel('Density')

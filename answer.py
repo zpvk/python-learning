@@ -95,3 +95,4 @@ class Gaussian():
             
         self.data = data_list
         self.mean = self.calculate_mean()
+        self.stdev = self.calculate_stdev(sample)

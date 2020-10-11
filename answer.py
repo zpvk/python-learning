@@ -178,3 +178,4 @@ class Gaussian():
         axes[0].set_ylabel('Density')
 
         axes[1].plot(x, y)
+                axes[1].set_title('Normal Distribution for \n Sample Mean and Sample Standard Deviation')

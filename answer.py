@@ -145,3 +145,4 @@ class Gaussian():
                             
         Returns:
             list: x values for the pdf plot
+            list: y values for the pdf plot

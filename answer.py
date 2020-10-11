@@ -141,7 +141,7 @@ class Gaussian():
                 probability density function along the same range
 
         Args:
-                    n_spaces (int): number of data points 
+                    n_spaces (int): number of data points and 
                             
         Returns:
             list: x values for the pdf plot
@@ -149,7 +149,6 @@ class Gaussian():
         
                     
         """
-        
         mu = self.mean
         sigma = self.stdev
 

@@ -152,3 +152,4 @@ class Gaussian():
         
         mu = self.mean
         sigma = self.stdev
+        

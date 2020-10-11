@@ -29,3 +29,4 @@ class TestGaussianClass(unittest.TestCase):
         gaussian_sum = gaussian_one + gaussian_two
 
         self.assertEqual(gaussian_sum.mean, 55)
+        self.assertEqual(gaussian_sum.stdev, 5)

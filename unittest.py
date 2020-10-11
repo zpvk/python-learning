@@ -9,3 +9,4 @@ class TestGaussianClass(unittest.TestCase):
         self.assertEqual(self.gaussian.stdev, 2, 'incorrect standard deviation')
     
     def test_pdf(self):
+        self.assertEqual(round(self.gaussian.pdf(25), 5), 0.19947,\

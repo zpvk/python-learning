@@ -143,3 +143,23 @@ class Gaussian():
 
         x = []
         y = []
+        
+        # calculate the x values to visualize
+        for i in range(n_spaces):
+            tmp = min_range + interval*i
+            x.append(tmp)
+            y.append(self.pdf(tmp))
+
+        # make the plots
+        fig, axes = plt.subplots(2,sharex=True)
+        fig.subplots_adjust(hspace=.5)
+        axes[0].hist(self.data, density=True)
+        axes[0].set_title('Normed Histogram of Data')
+        axes[0].set_ylabel('Density')
+
+        axes[1].plot(x, y)
+        axes[1].set_title('Normal Distribution for \n Sample Mean and Sample Standard Deviation')
+        axes[0].set_ylabel('Density')
+        plt.show()
+
+        return x, y

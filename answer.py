@@ -89,3 +89,4 @@ class Gaussian():
             data_list = []
             line = file.readline()
             while line:
+                data_list.append(int(line))

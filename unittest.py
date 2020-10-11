@@ -39,3 +39,4 @@ class TestGaussianClass(unittest.TestCase):
 tests = TestGaussianClass()
 
 tests_loaded = unittest.TestLoader().loadTestsFromModule(tests)
+

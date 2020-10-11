@@ -120,3 +120,4 @@ class Gaussian():
         
         
     def pdf(self, x):
+                """Probability density function calculator for the gaussian distribution.

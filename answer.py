@@ -132,3 +132,5 @@ class Gaussian():
                     """
         
         return (1.0 / (self.stdev * math.sqrt(2*math.pi))) * math.exp(-0.5*((x - self.mean)/ self.stdev) ** 2)
+    
+    def plot_histogram_pdf(self, n_spaces = 50):

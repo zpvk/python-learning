@@ -89,3 +89,18 @@ class Gaussian():
         self.data = data_list
         self.mean = self.calculate_mean()
         self.stdev = self.calculate_stdev(sample)
+
+    def plot_histogram(self):
+        """Method to output a histogram of the instance variable data using 
+        matplotlib pyplot library.
+        
+        Args:
+            None
+            
+        Returns:
+            None
+        """
+        plt.hist(self.data)
+        plt.title("Histrograme of Data")
+        plt.xlabel('data')
+        plt.ylabel('count')

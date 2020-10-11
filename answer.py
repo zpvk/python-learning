@@ -111,3 +111,4 @@ class Gaussian():
         Returns:
             None
         """
+                plt.hist(self.data)

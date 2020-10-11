@@ -106,3 +106,8 @@ class Gaussian():
                 
         Args:
             None
+
+                    
+        Returns:
+            None
+        """

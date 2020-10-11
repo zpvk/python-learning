@@ -63,3 +63,5 @@ class Gaussian():
                         sigma += (d - mean) ** 2
                 
         sigma = math.sqrt(sigma / n)
+    
+        self.stdev = sigma

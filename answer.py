@@ -115,3 +115,8 @@ class Gaussian():
         plt.title('Histogram of Data')
         plt.xlabel('data')
         plt.ylabel('count')
+
+        
+        
+        
+    def pdf(self, x):

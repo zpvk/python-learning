@@ -165,3 +165,4 @@ class Gaussian():
 
         # calculate the x values to visualize
         for i in range(n_spaces):
+            tmp = min_range + interval*i

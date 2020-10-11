@@ -61,3 +61,5 @@ class Gaussian():
             
         for d in self.data:
                         sigma += (d - mean) ** 2
+                
+        sigma = math.sqrt(sigma / n)

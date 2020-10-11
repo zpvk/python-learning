@@ -24,4 +24,5 @@ class Gaussian():
                 
         Args: 
             None
-        
+                
+        Returns: 

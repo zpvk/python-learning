@@ -123,3 +123,4 @@ class Gaussian():
                 """Probability density function calculator for the gaussian distribution.
                         
         Args:
+            x (float): point for calculating the probability density function

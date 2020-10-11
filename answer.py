@@ -170,3 +170,4 @@ class Gaussian():
             y.append(self.pdf(tmp))
             
         # make the plots
+                fig, axes = plt.subplots(2,sharex=True)

@@ -35,3 +35,5 @@ class TestGaussianClass(unittest.TestCase):
         gaussian_one = Gaussian(25, 3)
 
         self.assertEqual(str(gaussian_one), "mean 25, standard deviation 3")
+
+tests = TestGaussianClass()

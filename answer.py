@@ -94,3 +94,4 @@ class Gaussian():
         file.close()
             
         self.data = data_list
+                self.mean = self.calculate_mean()

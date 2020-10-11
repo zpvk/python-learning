@@ -46,3 +46,20 @@ class Gaussian():
             float: standard deviation of the data set
     
         """
+        if sample:
+            n = len(self.data) - 1
+        else:
+            n = len(self.data)
+            
+        mean = self.mean
+        
+        sigma = 0
+        
+        for d in self.data:
+            sigma += (d-mean) ** 2
+        
+        sigma = math.sqrt(sigma / n)
+        
+        self.stdev = sigma
+        
+        return self.stdev

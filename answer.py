@@ -161,3 +161,4 @@ class Gaussian():
         interval = 1.0 * (max_range - min_range) / n_spaces
         
         x = []
+        y = []

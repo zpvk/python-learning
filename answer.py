@@ -6,3 +6,4 @@ class Gaussian():
             visualizing a Gaussian distribution.
 
         Attributes:
+        mean (float) representing the mean value of the distribution

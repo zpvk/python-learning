@@ -171,4 +171,4 @@ class Gaussian():
             
         # make the plots
         fig, axes = plt.subplots(2,sharex=True)
-        fig, axes = plt.subplots(2,sharex=True)
+        fig.subplots_adjust(hspace=.5)

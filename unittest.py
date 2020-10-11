@@ -6,3 +6,4 @@ class TestGaussianClass(unittest.TestCase):
     
     def test_initialization(self):
         self.assertEqual(self.gaussian.mean, 25, 'incorrect mean')
+        self.assertEqual(self.gaussian.stdev, 2, 'incorrect standard deviation')

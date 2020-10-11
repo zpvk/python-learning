@@ -113,3 +113,4 @@ class Gaussian():
         """
         plt.hist(self.data)
         plt.title('Histogram of Data')
+        plt.xlabel('data')

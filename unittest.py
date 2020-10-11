@@ -18,4 +18,4 @@ class TestGaussianClass(unittest.TestCase):
             sum(self.gaussian.data) / float(len(self.gaussian.data)), 'calculated mean not as expected')
 
     def test_stdevcalculation(self):
-        
+        self.gaussian.read_data_file('numbers.txt', True)

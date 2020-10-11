@@ -112,3 +112,4 @@ class Gaussian():
             None
         """
         plt.hist(self.data)
+        plt.title('Histogram of Data')

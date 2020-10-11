@@ -41,3 +41,5 @@ class Gaussian():
     def calculate_stdev(self, sample=True):
 
         """Function to calculate  the standard deviation of the data set.
+                
+        Args:

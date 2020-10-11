@@ -156,4 +156,5 @@ class Gaussian():
         min_range = min(self.data)
         max_range = max(self.data)
 
-            
+                    
+         # calculates the interval between x values

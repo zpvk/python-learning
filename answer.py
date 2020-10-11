@@ -129,3 +129,5 @@ class Gaussian():
         Returns:
         
             float: probability density function output
+                    """
+        

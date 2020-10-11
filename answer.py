@@ -154,3 +154,4 @@ class Gaussian():
         sigma = self.stdev
 
                 min_range = min(self.data)
+                max_range = max(self.data)

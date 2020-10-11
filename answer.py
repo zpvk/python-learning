@@ -25,4 +25,5 @@ class Gaussian():
         Args: 
             None
                 
-        Returns: 
+        Returns:
+            float: mean of the data set

@@ -16,3 +16,6 @@ class Gaussian():
         self.mean = mu
         self.stdev = sigma
         self.data = []
+        
+    
+    def calculate_mean(self):

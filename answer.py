@@ -67,3 +67,6 @@ class Gaussian():
         self.stdev = sigma
                 
         return self.stdev
+                
+
+    def read_data_file(self, file_name, sample=True):

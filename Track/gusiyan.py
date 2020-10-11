@@ -117,3 +117,16 @@ class Gaussian():
         """
         return (1.0 / (self.stdev * math.sqrt(2*math.pi))) * math.exp(-0.5*((x - self.mean) / self.stdev) ** 2)
                
+    def plot_histogram_pdf(self, n_spaces = 50):
+
+        """Method to plot the normalized histogram of the data and a plot of the 
+        probability density function along the same range
+        
+        Args:
+            n_spaces (int): number of data points 
+        
+        Returns:
+            list: x values for the pdf plot
+            list: y values for the pdf plot
+            
+        """

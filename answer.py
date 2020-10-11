@@ -23,3 +23,5 @@ class Gaussian():
         """Function to calculate the mean of the data set.
                 
         Args: 
+            None
+        

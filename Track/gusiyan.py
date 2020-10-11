@@ -16,3 +16,20 @@ class Gaussian():
         self.stdev = sigma
         self.data = []
 
+    def calculate_mean(self):
+    
+        """Method to calculate the mean of the data set.
+        
+        Args: 
+            None
+        
+        Returns: 
+            float: mean of the data set
+    
+        """
+        
+        avg = 1.0 * sum(self.data)/len(self.data)
+        
+        self.mean = avg
+        
+        return self.mean

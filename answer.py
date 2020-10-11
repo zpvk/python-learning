@@ -58,3 +58,5 @@ class Gaussian():
         mean = self.mean
             
         sigma = 0
+            
+        for d in self.data:

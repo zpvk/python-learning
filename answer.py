@@ -72,3 +72,4 @@ class Gaussian():
     def read_data_file(self, file_name, sample=True):
             
         """Function to read in data from a txt file. The txt file should have
+        one number (float) per line. The numbers are stored in the data attribute. 

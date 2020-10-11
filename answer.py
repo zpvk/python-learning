@@ -149,3 +149,4 @@ class Gaussian():
         
                     
         """
+                mu = self.mean

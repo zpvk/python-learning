@@ -152,4 +152,5 @@ class Gaussian():
         
         mu = self.mean
         sigma = self.stdev
-        
+
+                min_range = min(self.data)

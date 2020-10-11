@@ -27,3 +27,5 @@ class TestGaussianClass(unittest.TestCase):
         gaussian_one = Gaussian(25, 3)
         gaussian_two = Gaussian(30, 4)
         gaussian_sum = gaussian_one + gaussian_two
+
+        

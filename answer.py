@@ -92,3 +92,5 @@ class Gaussian():
                 data_list.append(int(line))
                 line = file.readline()
         file.close()
+            
+        self.data = data_list

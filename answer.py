@@ -172,3 +172,4 @@ class Gaussian():
         # make the plots
         fig, axes = plt.subplots(2,sharex=True)
         fig.subplots_adjust(hspace=.5)
+        axes[0].hist(self.data, density=True)

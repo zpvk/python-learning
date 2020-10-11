@@ -77,5 +77,5 @@ class Gaussian():
 
                         
         Args:
-                    file_name (string): name of a file to read from
+            file_name (string): name of a file to read from
         

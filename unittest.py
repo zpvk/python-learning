@@ -14,3 +14,4 @@ class TestGaussianClass(unittest.TestCase):
     
     def test_meancalculation(self):
         self.gaussian.read_data_file('numbers.txt', True)
+        self.assertEqual(self.gaussian.calculate_mean(),\

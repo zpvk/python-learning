@@ -153,5 +153,7 @@ class Gaussian():
         mu = self.mean
         sigma = self.stdev
 
-                min_range = min(self.data)
-                max_range = max(self.data)
+        min_range = min(self.data)
+        max_range = max(self.data)
+
+            

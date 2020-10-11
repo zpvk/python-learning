@@ -13,4 +13,4 @@ class TestGaussianClass(unittest.TestCase):
             'pdf function does not give expected result') 
     
     def test_meancalculation(self):
-        
+        self.gaussian.read_data_file('numbers.txt', True)

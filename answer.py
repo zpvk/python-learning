@@ -73,3 +73,4 @@ class Gaussian():
             
         """Function to read in data from a txt file. The txt file should have
         one number (float) per line. The numbers are stored in the data attribute. 
+        After reading in the file, the mean and standard deviation are calculated

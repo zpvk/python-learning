@@ -8,4 +8,4 @@ class Gaussian():
         Attributes:
         mean (float) representing the mean value of the distribution
         stdev (float) representing the standard deviation of the distribution
-        data_list (list of floats) 
+        data_list (list of floats) a list of floats extracted from the data file

@@ -33,4 +33,5 @@ class Gaussian():
         avg = 1.0 * sum(self.data) / len(self.data)
                 
         self.mean = avg
-                return self.mean
+        
+        return self.mean

@@ -44,3 +44,5 @@ class Gaussian():
                 
         Args:
             sample (bool): whether the data represents a sample or population
+                    
+        Returns: 

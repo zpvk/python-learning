@@ -28,4 +28,4 @@ class TestGaussianClass(unittest.TestCase):
         gaussian_two = Gaussian(30, 4)
         gaussian_sum = gaussian_one + gaussian_two
 
-        
+        self.assertEqual(gaussian_sum.mean, 55)

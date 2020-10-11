@@ -47,4 +47,5 @@ class Gaussian():
                     
         Returns: 
              float: standard deviation of the data set
-    
+        
+        """

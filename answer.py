@@ -65,3 +65,5 @@ class Gaussian():
         sigma = math.sqrt(sigma / n)
     
         self.stdev = sigma
+                
+        return self.stdev

@@ -22,3 +22,6 @@ class TestGaussianClass(unittest.TestCase):
         self.assertEqual(round(self.gaussian.stdev, 2), 92.87, 'sample standard deviation incorrect')
         self.gaussian.read_data_file('numbers.txt', False)
         self.assertEqual(round(self.gaussian.stdev, 2), 88.55, 'population standard deviation incorrect')
+
+    def test_add(self):
+        

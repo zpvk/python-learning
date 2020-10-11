@@ -33,3 +33,5 @@ class TestGaussianClass(unittest.TestCase):
 
     def test_repr(self):
         gaussian_one = Gaussian(25, 3)
+
+        

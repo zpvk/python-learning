@@ -142,3 +142,5 @@ class Gaussian():
 
         Args:
                     n_spaces (int): number of data points 
+                            
+        Returns:

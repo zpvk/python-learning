@@ -20,3 +20,4 @@ class TestGaussianClass(unittest.TestCase):
     def test_stdevcalculation(self):
         self.gaussian.read_data_file('numbers.txt', True)
         self.assertEqual(round(self.gaussian.stdev, 2), 92.87, 'sample standard deviation incorrect')
+        self.gaussian.read_data_file('numbers.txt', False)

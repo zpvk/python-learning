@@ -143,7 +143,7 @@ class Gaussian():
 
         x = []
         y = []
-        
+
         # calculate the x values to visualize
         for i in range(n_spaces):
             tmp = min_range + interval*i
@@ -163,3 +163,22 @@ class Gaussian():
         plt.show()
 
         return x, y
+
+    def __add__(self, other):
+        
+        """Magic method to add together two Gaussian distributions
+        
+        Args:
+            other (Gaussian): Gaussian instance
+            
+        Returns:
+            Gaussian: Gaussian distribution
+            
+        """
+        
+            None
+        
+        Returns:
+            string: characteristics of the Gaussian
+        
+        """

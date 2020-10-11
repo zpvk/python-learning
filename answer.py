@@ -141,7 +141,7 @@ class Gaussian():
                 probability density function along the same range
 
         Args:
-                    n_spaces (int): number of data points and 
+                    n_spaces (int): number of data points and..12
                             
         Returns:
             list: x values for the pdf plot

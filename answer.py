@@ -49,4 +49,5 @@ class Gaussian():
              float: standard deviation of the data set
         
         """
-                if sample:
+        
+        if sample:

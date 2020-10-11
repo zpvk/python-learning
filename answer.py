@@ -124,3 +124,6 @@ class Gaussian():
                         
         Args:
             x (float): point for calculating the probability density function
+                        
+        
+        Returns:

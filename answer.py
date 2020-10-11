@@ -80,3 +80,4 @@ class Gaussian():
             file_name (string): name of a file to read from
 
         Returns:
+            None

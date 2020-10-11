@@ -56,3 +56,5 @@ class Gaussian():
             n = len(self.data)
     
         mean = self.mean
+            
+        sigma = 0

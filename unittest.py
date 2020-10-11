@@ -25,3 +25,4 @@ class TestGaussianClass(unittest.TestCase):
 
     def test_add(self):
         gaussian_one = Gaussian(25, 3)
+        gaussian_two = Gaussian(30, 4)

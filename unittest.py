@@ -15,3 +15,4 @@ class TestGaussianClass(unittest.TestCase):
     def test_meancalculation(self):
         self.gaussian.read_data_file('numbers.txt', True)
         self.assertEqual(self.gaussian.calculate_mean(),\
+            sum(self.gaussian.data) / float(len(self.gaussian.data)), 'calculated mean not as expected')

@@ -60,3 +60,4 @@ class Gaussian():
         sigma = 0
             
         for d in self.data:
+                        sigma += (d - mean) ** 2

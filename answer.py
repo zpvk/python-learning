@@ -162,3 +162,5 @@ class Gaussian():
         
         x = []
         y = []
+
+        # calculate the x values to visualize

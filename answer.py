@@ -35,3 +35,5 @@ class Gaussian():
         self.mean = avg
         
         return self.mean
+
+        

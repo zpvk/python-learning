@@ -87,3 +87,4 @@ class Gaussian():
                     
         with open(file_name) as file:
             data_list = []
+            line = file.readline()

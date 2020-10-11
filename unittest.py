@@ -32,3 +32,4 @@ class TestGaussianClass(unittest.TestCase):
         self.assertEqual(gaussian_sum.stdev, 5)
 
     def test_repr(self):
+        gaussian_one = Gaussian(25, 3)

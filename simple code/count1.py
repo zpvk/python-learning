@@ -12,3 +12,4 @@ for line in fhand:
             if word not in counts:
                 counts[word] = 1
             else:
+                counts[word] += 1

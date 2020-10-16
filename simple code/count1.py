@@ -13,3 +13,4 @@ for line in fhand:
                 counts[word] = 1
             else:
                 counts[word] += 1
+

@@ -14,4 +14,4 @@ for line in fhand:
             else:
                 counts[word] += 1
 
-print()00000
+print()

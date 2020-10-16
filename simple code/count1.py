@@ -7,3 +7,4 @@ except:
 
 counts = dict()
 for line in fhand:
+        words = line.split()

@@ -6,3 +6,4 @@ except:
     exit()
 
 counts = dict()
+for line in fhand:

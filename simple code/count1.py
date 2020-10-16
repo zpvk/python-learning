@@ -11,3 +11,4 @@ for line in fhand:
         for word in words:
             if word not in counts:
                 counts[word] = 1
+            else:

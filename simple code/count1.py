@@ -5,4 +5,4 @@ except:
     print('File cannot be opened:', fname)
     exit()
 
-    
+counts = dict()

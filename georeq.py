@@ -38,3 +38,5 @@ while True:
         print(data)
         continue
 
+    print(json.dumps(js, indent=4))
+

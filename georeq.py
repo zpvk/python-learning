@@ -28,3 +28,8 @@ while True:
     data = r.text
     print('Retrieved', len(data), 'characters')
 
+    try:
+        js = json.loads(data)
+    except:
+        js = None
+

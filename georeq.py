@@ -22,3 +22,9 @@ while True:
     payload['address'] = address
     if api_key is not False: payload['key'] = api_key
 
+
+    r = requests.get(serviceurl, params=payload)
+    print('Retrieved', r.url)
+    data = r.text
+    print('Retrieved', len(data), 'characters')
+

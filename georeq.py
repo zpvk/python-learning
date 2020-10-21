@@ -16,3 +16,9 @@ else :
 while True:
     address = input('Enter location: ')
     if len(address) < 1: break
+
+    
+    payload = dict()
+    payload['address'] = address
+    if api_key is not False: payload['key'] = api_key
+

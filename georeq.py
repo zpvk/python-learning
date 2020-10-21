@@ -41,4 +41,5 @@ while True:
     print(json.dumps(js, indent=4))
 
     lat = js['results'][0]['geometry']['location']['lat']
+    lng = js['results'][0]['geometry']['location']['lng']
 

@@ -14,3 +14,5 @@ else :
     serviceurl = 'https://maps.googleapis.com/maps/api/geocode/json'
 
 while True:
+    address = input('Enter location: ')
+    if len(address) < 1: break

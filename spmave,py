@@ -17,3 +17,4 @@ for line in fhand:
     count = count + 1
     total = total + conf
 average = total / count
+print('Average spam confidence:', average)

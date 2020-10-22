@@ -15,3 +15,5 @@ for line in fhand:
     except:
         continue
     count = count + 1
+    total = total + conf
+average = total / count

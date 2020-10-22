@@ -5,3 +5,4 @@ except:
     print('File cannot be opened:', fname)
     exit()
 count = 0
+total = 0

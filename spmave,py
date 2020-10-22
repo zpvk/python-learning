@@ -6,3 +6,5 @@ except:
     exit()
 count = 0
 total = 0
+for line in fhand:
+    words = line.split()

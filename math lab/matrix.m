@@ -81,3 +81,6 @@ IA = I*A
 
 % How about A*I ? 
 AI = A*I
+
+% Compute A*B 
+AB = A*B 

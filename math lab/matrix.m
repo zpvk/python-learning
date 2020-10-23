@@ -32,3 +32,6 @@ s = 2
 
 % See how element-wise addition works
 add_AB = A + B 
+
+% See how element-wise subtraction works
+sub_AB = A - B

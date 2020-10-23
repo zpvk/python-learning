@@ -13,3 +13,6 @@ v = [1;2;3]
 
 % Get the dimension of the matrix A where m = rows and n = columns
 [m,n] = size(A)
+
+% You could also store it this way
+dim_A = size(A)

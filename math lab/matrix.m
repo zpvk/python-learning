@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 22:31:04
+ * @Last Modified time: 2020-10-23 22:31:29
  */
 
 % The ; denotes we are going back to a new row.
@@ -30,3 +30,5 @@ B = [1, 3, 4; 1, 1, 1]
 % Initialize constant s 
 s = 2
 
+% See how element-wise addition works
+add_AB = A + B 

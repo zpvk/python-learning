@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 22:29:50
+ * @Last Modified time: 2020-10-23 22:30:16
  */
 
 % The ; denotes we are going back to a new row.
@@ -16,3 +16,6 @@ v = [1;2;3]
 
 % You could also store it this way
 dim_A = size(A)
+
+% Get the dimension of the vector v 
+dim_v = size(v)s

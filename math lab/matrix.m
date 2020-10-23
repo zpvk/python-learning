@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 23:53:41
+ * @Last Modified time: 2020-10-23 23:54:03
  */
 
 % The ; denotes we are going back to a new row.
@@ -78,3 +78,6 @@ I = eye(2)
 
 % What happens when we multiply I*A ? 
 IA = I*A 
+
+% How about A*I ? 
+AI = A*I

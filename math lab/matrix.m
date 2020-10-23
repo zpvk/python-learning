@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 22:30:43
+ * @Last Modified time: 2020-10-23 22:31:04
  */
 
 % The ; denotes we are going back to a new row.
@@ -22,3 +22,7 @@ dim_v = size(v)s
 
 % Get the dimension of the vector v 
 dim_v = size(v)
+
+% Initialize matrix A and B 
+A = [1, 2, 4; 5, 3, 2]
+B = [1, 3, 4; 1, 1, 1]

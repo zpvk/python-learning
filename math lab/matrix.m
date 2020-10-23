@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 23:54:28
+ * @Last Modified time: 2020-10-24 00:12:16
  */
 
 % The ; denotes we are going back to a new row.
@@ -87,5 +87,8 @@ AB = A*B
 
 % Is it equal to B*A? 
 BA = B*A
+
+% Note that IA = AI but AB != BA
+
 
 % Note that IA = AI but AB != BA

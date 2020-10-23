@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 23:37:41
+ * @Last Modified time: 2020-10-23 23:53:16
  */
 
 % The ; denotes we are going back to a new row.
@@ -66,3 +66,7 @@ mult_AB = A*B
 
 
 % Make sure you understand why we got that result
+
+% Initialize random matrices A and B 
+A = [1,2;4,5]
+B = [1,1;0,2]

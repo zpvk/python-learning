@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 23:53:16
+ * @Last Modified time: 2020-10-23 23:53:41
  */
 
 % The ; denotes we are going back to a new row.
@@ -73,3 +73,5 @@ B = [1,1;0,2]
 
 % Initialize a 2 by 2 identity matrix
 I = eye(2)
+
+% The above notation is the same as I = [1,0;0,1]

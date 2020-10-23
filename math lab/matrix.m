@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 22:31:29
+ * @Last Modified time: 2020-10-23 22:31:54
  */
 
 % The ; denotes we are going back to a new row.
@@ -35,3 +35,6 @@ add_AB = A + B
 
 % See how element-wise subtraction works
 sub_AB = A - B
+
+% See how scalar multiplication works
+mult_As = A * s

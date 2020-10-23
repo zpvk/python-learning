@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-24 00:12:46
+ * @Last Modified time: 2020-10-24 00:13:10
  */
 
 % The ; denotes we are going back to a new row.
@@ -92,3 +92,6 @@ BA = B*A
 
 % Initialize matrix A 
 A = [1,2,0;0,5,6;7,0,9]
+
+% Transpose A 
+A_trans = A' 

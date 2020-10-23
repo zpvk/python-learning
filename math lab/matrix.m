@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-24 00:13:10
+ * @Last Modified time: 2020-10-24 00:13:40
  */
 
 % The ; denotes we are going back to a new row.
@@ -99,3 +99,6 @@ A_trans = A'
 
 % Take the inverse of A 
 A_inv = inv(A)
+
+% What is A^(-1)*A? 
+A_invA = inv(A)*A

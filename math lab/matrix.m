@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-24 00:12:16
+ * @Last Modified time: 2020-10-24 00:12:46
  */
 
 % The ; denotes we are going back to a new row.
@@ -90,5 +90,5 @@ BA = B*A
 
 % Note that IA = AI but AB != BA
 
-
-% Note that IA = AI but AB != BA
+% Initialize matrix A 
+A = [1,2,0;0,5,6;7,0,9]

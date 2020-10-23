@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 22:31:54
+ * @Last Modified time: 2020-10-23 22:32:14
  */
 
 % The ; denotes we are going back to a new row.
@@ -38,3 +38,7 @@ sub_AB = A - B
 
 % See how scalar multiplication works
 mult_As = A * s
+
+% Divide A by s
+div_As = A / s
+

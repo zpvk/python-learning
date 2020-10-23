@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 23:37:10
+ * @Last Modified time: 2020-10-23 23:37:41
  */
 
 % The ; denotes we are going back to a new row.
@@ -59,3 +59,7 @@ A = [1, 2; 3, 4;5, 6]
 
 % Initialize a 2 by 1 matrix 
 B = [1; 2] 
+
+
+% We expect a resulting matrix of (3 by 2)*(2 by 1) = (3 by 1) 
+mult_AB = A*B

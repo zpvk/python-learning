@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 23:54:03
+ * @Last Modified time: 2020-10-23 23:54:28
  */
 
 % The ; denotes we are going back to a new row.
@@ -84,3 +84,6 @@ AI = A*I
 
 % Compute A*B 
 AB = A*B 
+
+% Is it equal to B*A? 
+BA = B*A

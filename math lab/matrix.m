@@ -75,3 +75,6 @@ B = [1,1;0,2]
 I = eye(2)
 
 % The above notation is the same as I = [1,0;0,1]
+
+% What happens when we multiply I*A ? 
+IA = I*A 

@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 23:09:49
+ * @Last Modified time: 2020-10-23 23:37:10
  */
 
 % The ; denotes we are going back to a new row.
@@ -53,3 +53,6 @@ v = [1; 1; 1]
 
 % Multiply A * v
 Av = A * v
+
+% Initialize a 3 by 2 matrix 
+A = [1, 2; 3, 4;5, 6]

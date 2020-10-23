@@ -70,3 +70,6 @@ mult_AB = A*B
 % Initialize random matrices A and B 
 A = [1,2;4,5]
 B = [1,1;0,2]
+
+% Initialize a 2 by 2 identity matrix
+I = eye(2)

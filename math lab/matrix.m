@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 22:30:16
+ * @Last Modified time: 2020-10-23 22:30:43
  */
 
 % The ; denotes we are going back to a new row.
@@ -19,3 +19,6 @@ dim_A = size(A)
 
 % Get the dimension of the vector v 
 dim_v = size(v)s
+
+% Get the dimension of the vector v 
+dim_v = size(v)

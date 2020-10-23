@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-10-23 23:09:27
+ * @Last Modified time: 2020-10-23 23:09:49
  */
 
 % The ; denotes we are going back to a new row.
@@ -48,3 +48,5 @@ add_As = A + s
 % Initialize matrix A 
 A = [1, 2, 3; 4, 5, 6;7, 8, 9] 
 
+% Initialize vector v 
+v = [1; 1; 1] 

@@ -42,3 +42,5 @@ mult_As = A * s
 % Divide A by s
 div_As = A / s
 
+% What happens if we have a Matrix + scalar?
+add_As = A + s

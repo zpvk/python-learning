@@ -87,3 +87,5 @@ AB = A*B
 
 % Is it equal to B*A? 
 BA = B*A
+
+% Note that IA = AI but AB != BA

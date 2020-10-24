@@ -2,7 +2,7 @@
  * @Author: Rohan K 
  * @Date: 2020-10-23 22:22:34 
  * @Last Modified by:   Rohan Kumara
- * @Last Modified time: 2020-10-24 23:58:25
+ * @Last Modified time: 2020-10-24 23:58:36
  */
 
 % The ; denotes we are going back to a new row.
@@ -79,7 +79,7 @@ I = eye(2)
 % What happens when we multiply I*A ? 
 IA = I*A 
 
-% How about A*I ? 
+% How about A*I ? ?
 AI = A*I
 
 % Compute A*B 

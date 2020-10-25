@@ -2,7 +2,7 @@
 # @Author: Rohan Kumara
 # @Date:   2020-10-25 22:19:03
 # @Last Modified by:   Rohan Kumara
-# @Last Modified time: 2020-10-25 22:23:14
+# @Last Modified time: 2020-10-25 22:23:53
 
 
 
@@ -21,3 +21,6 @@ for word, count in list(counts.items()):
     if bigcount is None or count > bigcount:
                 bigword = word
                 bigcount = count
+
+
+print(bigword, bigcount)

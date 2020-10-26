@@ -2,7 +2,7 @@
 # @Author: Rohan Kumara
 # @Date:   2020-10-26 23:43:23
 # @Last Modified by:   Rohan Kumara
-# @Last Modified time: 2020-10-26 23:45:48
+# @Last Modified time: 2020-10-26 23:46:03
 
 import urllib.request, urllib.parse, urllib.error
 
@@ -16,3 +16,4 @@ while True:
         fhand.write(info)
 
 print(size, 'characters copied.')
+fhand.close()

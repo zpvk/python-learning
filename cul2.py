@@ -2,7 +2,7 @@
 # @Author: Rohan Kumara
 # @Date:   2020-10-26 23:43:23
 # @Last Modified by:   Rohan Kumara
-# @Last Modified time: 2020-10-26 23:44:45
+# @Last Modified time: 2020-10-26 23:45:02
 
 import urllib.request, urllib.parse, urllib.error
 
@@ -12,3 +12,4 @@ size = 0
 while True:
         info = img.read(100000)
         if len(info) < 1: break
+        size = size + len(info)

@@ -2,7 +2,7 @@
 # @Author: Rohan Kumara
 # @Date:   2020-10-26 23:43:23
 # @Last Modified by:   Rohan Kumara
-# @Last Modified time: 2020-10-26 23:45:36
+# @Last Modified time: 2020-10-26 23:45:48
 
 import urllib.request, urllib.parse, urllib.error
 
@@ -14,4 +14,5 @@ while True:
         if len(info) < 1: break
         size = size + len(info)
         fhand.write(info)
-        
+
+print(size, 'characters copied.')

@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+# @Author: Rohan Kumara
+# @Date:   2020-10-27 23:59:27
+# @Last Modified by:   Rohan Kumara
+# @Last Modified time: 2020-10-27 23:59:27
+
+
 import requests
 # You need to install the requests module to use this code
 import json
@@ -5,18 +12,18 @@ import json
 api_key = False
 # If you have a Google Places API key, enter it here
 # api_key = 'AIzaSy___IDByT70'
-# https://developers.google.com/maps/documentation/geocoding/intro
+else:
 
 if api_key is False:
     api_key = 42
     serviceurl = 'http://py4e-data.dr-chuck.net/json'
-else :
+    if len(address) < 1:
+        break
     serviceurl = 'https://maps.googleapis.com/maps/api/geocode/json'
-
 while True:
     address = input('Enter location: ')
-    if len(address) < 1: break
-
+    if api_key is not False:
+        payload['key'] = api_key
     
     payload = dict()
     payload['address'] = address
@@ -40,7 +47,6 @@ while True:
 
     print(json.dumps(js, indent=4))
 
-    lat = js['results'][0]['geometry']['location']['lat']
     lng = js['results'][0]['geometry']['location']['lng']
     print('lat', lat, 'lng', lng)
     location = js['results'][0]['formatted_address']

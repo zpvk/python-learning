@@ -2,7 +2,7 @@
 # @Author: Rohan Kumara
 # @Date:   2020-11-03 23:47:55
 # @Last Modified by:   Rohan Kumara
-# @Last Modified time: 2020-11-04 23:58:52
+# @Last Modified time: 2020-11-04 23:59:02
 
 
 import socket
@@ -15,7 +15,7 @@ mysock.send(cmd)
 while True:
     data = mysock.recv(512)
     if len(data) < 1:
-        break11
+        break
     print(data.decode(), end='')
 
 mysock.close()

@@ -1,0 +1,20 @@
+<!-- 
+  @Author: Rohan Kumara
+  @Date:   2020-11-05 23:29:38
+  @Last Modified by:   Rohan Kumara
+  @Last Modified time: 2020-11-05 23:29:38
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2015-11-24T11:12:10Z</date>
+	<key>Application Version</key><string>12.3.1.23</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file:///Users/csev/Music/iTunes/iTunes%20Music/</string>
+	<key>Library Persistent ID</key><string>B7006C9E9799282E</string>
+	<key>Tracks</key>
+	<dict>

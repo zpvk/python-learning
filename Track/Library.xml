@@ -2,7 +2,7 @@
   @Author: Rohan Kumara
   @Date:   2020-11-05 23:29:38
   @Last Modified by:   Rohan Kumara
-  @Last Modified time: 2020-11-05 23:30:49
+  @Last Modified time: 2020-11-05 23:31:15
 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -158,4 +158,73 @@
 			<key>Library Folder Count</key><integer>1</integer>
 		</dict>
 		<key>377</key>
+		<dict>
+			<key>Track ID</key><integer>377</integer>
+			<key>Name</key><string>Bring The Boys Back Home</string>
+			<key>Artist</key><string>Pink Floyd</string>
+			<key>Composer</key><string>Roger Waters</string>
+			<key>Album</key><string>The Wall [Disc 2]</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>1744588</integer>
+			<key>Total Time</key><integer>87118</integer>
+			<key>Disc Number</key><integer>2</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1979</integer>
+			<key>Date Modified</key><date>2006-02-14T16:13:53Z</date>
+			<key>Date Added</key><date>2006-02-14T16:13:50Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>33</integer>
+			<key>Play Date</key><integer>3514729354</integer>
+			<key>Play Date UTC</key><date>2015-05-17T21:42:34Z</date>
+			<key>Skip Count</key><integer>11</integer>
+			<key>Skip Date</key><date>2013-10-20T10:35:02Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>1445</integer>
+			<key>Sort Album</key><string>Wall [Disc 2]</string>
+			<key>Persistent ID</key><string>21130E105F3B8849</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Users/csev/Music/iTunes/iTunes%20Music/Pink%20Floyd/The%20Wall%20%5BDisc%202%5D/2-05%20Bring%20The%20Boys%20Back%20Home.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>379</key>
+		<dict>
+			<key>Track ID</key><integer>379</integer>
+			<key>Name</key><string>Circles</string>
+			<key>Artist</key><string>Bryan Lee</string>
+			<key>Album</key><string>Blues Is</string>
+			<key>Genre</key><string>Funk</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7109552</integer>
+			<key>Total Time</key><integer>355369</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Date Modified</key><date>2009-03-31T14:14:37Z</date>
+			<key>Date Added</key><date>2006-02-14T16:13:54Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>54</integer>
+			<key>Play Date</key><integer>3493169662</integer>
+			<key>Play Date UTC</key><date>2014-09-10T08:54:22Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2013-07-01T12:06:02Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>1592</integer>
+			<key>Persistent ID</key><string>21130E105F3B884A</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Users/csev/Music/iTunes/iTunes%20Music/Bryan%20Lee/Blues%20Is/01%20Circles.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>381</key>
 		<dict>

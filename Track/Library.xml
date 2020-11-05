@@ -2,7 +2,7 @@
   @Author: Rohan Kumara
   @Date:   2020-11-05 23:29:38
   @Last Modified by:   Rohan Kumara
-  @Last Modified time: 2020-11-05 23:30:00
+  @Last Modified time: 2020-11-05 23:30:29
 -->
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -56,4 +56,70 @@
 			<key>Library Folder Count</key><integer>1</integer>
 		</dict>
 		<key>371</key>
+		<dict>
+			<key>Track ID</key><integer>371</integer>
+			<key>Name</key><string>Asche Zu Asche</string>
+			<key>Artist</key><string>Rammstein</string>
+			<key>Composer</key><string>Christoph Doom Schneider, Doktor Christian Lorenz, Oliver Riedel, Paul Landers, Richard Z. Kruspe-Bernstein &#38; Till Lindemann</string>
+			<key>Album</key><string>Herzeleid</string>
+			<key>Genre</key><string>Industrial</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4638526</integer>
+			<key>Total Time</key><integer>231810</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1995</integer>
+			<key>Date Modified</key><date>2006-02-22T04:38:17Z</date>
+			<key>Date Added</key><date>2006-02-14T16:13:04Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>79</integer>
+			<key>Play Date</key><integer>3518869000</integer>
+			<key>Play Date UTC</key><date>2015-07-04T19:36:40Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>4576</integer>
+			<key>Persistent ID</key><string>21130E105F3B8846</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Users/csev/Music/iTunes/iTunes%20Music/Rammstein/Herzeleid/04%20Asche%20Zu%20Asche.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>373</key>
+		<dict>
+			<key>Track ID</key><integer>373</integer>
+			<key>Name</key><string>Beauty School Dropout</string>
+			<key>Artist</key><string>Various</string>
+			<key>Album</key><string>Grease</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4801377</integer>
+			<key>Total Time</key><integer>239960</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>24</integer>
+			<key>Date Modified</key><date>2006-02-14T16:13:26Z</date>
+			<key>Date Added</key><date>2006-02-14T16:13:15Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>48</integer>
+			<key>Play Date</key><integer>3516380131</integer>
+			<key>Play Date UTC</key><date>2015-06-06T00:15:31Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2010-04-07T15:38:14Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>100</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Normalization</key><integer>1401</integer>
+			<key>Persistent ID</key><string>21130E105F3B8847</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file:///Users/csev/Music/iTunes/iTunes%20Music/Various/Grease/06%20Beauty%20School%20Dropout.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>375</key>
 		<dict>

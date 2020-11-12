@@ -2,6 +2,14 @@
 # @Author: Rohan Kumara
 # @Date:   2020-11-13 03:51:58
 # @Last Modified by:   Rohan Kumara
-# @Last Modified time: 2020-11-13 03:52:45
+# @Last Modified time: 2020-11-13 03:56:13
 
-S
+def count_substring(string, sub_string):
+    return [string[i:i+len(sub_string)] for i in range(len(string))].count(sub_string)
+
+if __name__ == '__main__':
+    string = input().strip()
+    sub_string = input().strip()
+    
+    count = count_substring(string, sub_string)
+    print(count)

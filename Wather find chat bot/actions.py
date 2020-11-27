@@ -13,7 +13,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
 timezones = {
-    "London": "UTC+1:00"
+    "London": "UTC+1:00";
     "WDC": "UTC+15:00"
     "jp": "UTC+13:00"
     "sl": "UTC+5:30"

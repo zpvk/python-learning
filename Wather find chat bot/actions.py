@@ -16,6 +16,7 @@ timezones = {
     "London": "UTC+1:00"
     "WDC": "UTC+15:00"
     "jp": "UTC+13:00"
+    "London": "UTC+1:00"
 }
 
 class ActionFindAndShowTimeZone(Action):

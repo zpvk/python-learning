@@ -14,7 +14,7 @@ from rasa_sdk.executor import CollectingDispatcher
 
 timezones = {
     "London": "UTC+1:00"
-    "London": "UTC+1:00"
+    "WDC": "UTC+1:00"
     "London": "UTC+1:00"
 }
 

@@ -16,7 +16,7 @@ timezones = {
     "London": "UTC+1:00",
     "WDC": "UTC+15:00",
     "jp": "UTC+13:00",
-    "sl": "UTC+5:30"
+    "sl": "UTC+5:30",
     "WDC": "UTC+15:00",
     "jp": "UTC+13:00",
     "sl": "UTC+5:30"

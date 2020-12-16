@@ -1,1 +1,1 @@
-fhand =  open
+fhand =  open('mbox-short.txt')

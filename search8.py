@@ -5,4 +5,4 @@ for line in fhand:
     if len(words) > 0:
         if words[0]!= 'From':
             continue
-        print
+        print(words[2])

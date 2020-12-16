@@ -1,3 +1,3 @@
 fhand =  open('mbox-short.txt')
 count = 0
-for
+for line in fhand:

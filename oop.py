@@ -168,7 +168,7 @@ class I(C,D,F): # multiple inharitance use like this
         super().__init__() # hear i call class supper class constructor but hear, have 3 supper class what int can be call?
         print("in F in init")
     # it's call from left to right
-    #fristly call constructer in c then call D 
+    #fristly call constructor in c then call D
     #it's called Method Resolution Order(MRO)
     
 

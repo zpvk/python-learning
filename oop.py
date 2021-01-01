@@ -10,7 +10,7 @@ class pandas: # making class
     def method(self): #method
         print('Method')
         
-    def update(upname):
+    def update(self,upname):
         pandas.owner=upname
         print(pandas.owner)
     

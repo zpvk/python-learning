@@ -1,5 +1,6 @@
 {
     "git.ignoreLimitWarning": true,
     "files.autoSave": "afterDelay",
-    "editor.fontFamily": "source sans pro regular"
+    "editor.fontFamily": "source sans pro regular",
+    "python.pythonPath": "/opt/anaconda3/bin/python"
 }

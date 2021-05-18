@@ -42,4 +42,19 @@ print(answer)
 print("\n{x}star{x}\n".format(x="*"*10))
 
 # if only one variable is integrated with the line can keep the curly braces empty
-print("\n{}star{}\n".format(x="*"*10, x="*"*10))
+
+#simple 2 digit calculator
+num1 = int(input("Enter 1st number: "))
+num2 = int(input("Enter 2st number: "))
+sum = num1+num2
+sub = num1-num2
+mult = num1*num2
+div = num1/num2
+fldiv = num1//num2
+mod = num1%num2
+print("\n{} + {} = {}".format(num1,num2,sum))
+print("{} - {} = {}".format(num1,num2,sub))
+print("{} * {} = {}".format(num1,num2,mult))
+print("{} / {} = {}".format(num1,num2,div))
+print("{} // {} = {}".format(num1,num2,fldiv))
+print("{} % {} = {}\n".format(num1,num2,mod))

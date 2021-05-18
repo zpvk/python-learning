@@ -38,3 +38,8 @@ answer = num1+num2
 print(answer)
 
 
+#print same thing alone a line
+print("\n{x}star{x}\n".format(x="*"*10))
+
+# if only one variable is integrated with the line can keep the curly braces empty
+print("\n{}star{}\n".format(x="*"*10, x="*"*10))

@@ -8,7 +8,7 @@ age = 12
 title = "student"
 height = "7'1''"
 qualification = "high intelligence"
-hobby = "Opera, Ball dance, Singing Sri Lanka Matha"
+hobby = "Singing Sri Lanka Matha"
 
 x = str(input("Hello dr, Please enter your name: "))
 print(x,"Welcome to My Bio data\n\n")
@@ -22,4 +22,4 @@ print("Height: ", height, "\n")
 print("Qualification: ", qualification, "\n")
 print("Hobbies: ", hobby, "\n")
 
-print("Thank you very {}. You are an wonderfull idiot\nCome Agatin".format(x))
+print("Thank you {}. You are a wonderful idiot\nCome Again".format(x))

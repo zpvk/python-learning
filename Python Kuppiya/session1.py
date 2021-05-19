@@ -46,4 +46,96 @@
 # else:
 #     print("No")
 
+# print("{x} Welcome to my Calculator {x}\n".format(x="*"*10))
+# num1 = int(input("Enter Your 1st Number : "))
+# print("\n  Add + \n  Subtract - \n  Multiple * \n  Divide / \n  Exponet ** \n  Mod % \n  Div //\n")
+# oprator = str(input("Enter Your Oparator : "))
+# num2 = int(input("Enter Your 2nd Number : "))
+
+# if(oprator == "Add" or oprator == "+"):
+#     print("Answer : ",num1+num2)
+# elif(oprator == "Subtract" or oprator == "-"):
+#     print("Answer : ",num1-num2)
+# elif(oprator == "Multiple" or oprator == "*"):
+#     print("Answer : ",num1*num2)
+# elif(oprator == "Divide" or oprator == "/"):
+#     print("Answer : ",num1/num2)
+# elif(oprator == "Exponet" or oprator == "**"):
+#     print("Answer : ",num1**num2)
+# elif(oprator == "Mode" or oprator == "%"):
+#     print("Answer : ",num1%num2)
+# elif(oprator == "Div" or oprator == "//"):
+#     print("Answer : ",num1//num2)
+# else:
+#     print("Your oprator is invalid :( Please try again")
+
+
+
+# num1 = int(input("Enter 1 Number"))
+# print("sum/n sub/n""multi/n""dvi/n""tdvi/n""sdvi/n")
+# x=str(input("Enter Your opertor"))
+# num2 = int(input("Enter 2 Number"))
+# if(x=="sum"):
+#     print(num1+num2)
+# elif(x=="sub"):
+#     print(num1-num2)
+# elif(x=="multi"):
+#     print(num1*num2)
+# elif(x=="dvi"):
+#     print(num1/num2)
+# elif(x=="tdvi"):
+#     print(num1//num2)
+# elif(x=="sdvi"):
+#     print(num1%num2)
+# else:
+#     print("Plaase Try Again")   
+
+
+
+#Define funtion (adds two numbers)
+# def add(x,y):
+#     return x + y
+# #Define funtion (subtracts two numbers)
+# def subtract(x,y):
+#     return x - y
+# #Define funtion (multiples two numbers)
+# def multiple(x,y):
+#     return x * y
+# #Define funtion (devides two numbers)
+# def devided(x,y):
+#     return x / y
+# print("select operations.")
+# print("1.add")
+# print("2.subtract")
+# print("3.multiple")
+# print("4.devide")
+# choice=input("Enter choice(1/2/3/4: ")
+# Num1=float(input("Enter first number: "))
+# Num2=float(input("Enter second number: "))
+
+# if choice=='1' :
+# print(num1,"+",num2,"=",add(num1,num2))
+# else if choice=='2' :
+# print(num1,"+",num2,"=",subtract(num1,num2))
+# else if choice=='3' :
+# print(num1,"+",num2,"=",multiple(num1,num2))
+# else if choice=='4' :
+# print(num1,"+",num2,"=",devide(num1,num2))
+# else:
+# print("invalid input")
+
+x = int(input("Enter 1st no: "))
+print("1 - Add\n2 - Substract\n3 - Multiply\n4 - Divide\nSelect perefered operetor by number")
+opp = int(input("Enter your option: "))
+y = int(input("Enter 2nd no: "))
+if(opp == 1):
+    print("{} + {} =".format(x,y),x+y)
+elif(opp == 2): 
+    print("{} - {} =".format(x,y),x-y)
+elif(opp == 3): 
+    print("{} * {} =".format(x,y),x*y)
+elif(opp == 4): 
+    print("{} - {} =".format(x,y),x/y)
+else:
+    print("something went wrong. Try Again")
 

@@ -65,4 +65,5 @@ if (marks<35):
     print
 
 
-
+# home work 3
+# print the grade when student enter his marks

@@ -65,11 +65,4 @@ if (marks<35):
     print
 
 
-# home work 2 (calculator)
-# 01) input first digit
-# 02) show operators have
-# 02) input operator need
-# 03) input 2nd digit
-# 04) show answer
-
 

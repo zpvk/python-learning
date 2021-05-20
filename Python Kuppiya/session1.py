@@ -145,10 +145,20 @@ mark = "Undifine"
 if (score>= 0 or score<=100 ):
     if(score < 35):
         mark = "Fail"
-    elif(score >= 35 or score<= 45):
+    elif(score <= 35 or score<= 44):
+        mark = "S"
+    elif(score <= 45 or score<= 64):
         mark = "C"
+    elif(score <= 65 or score<= 74):
+        mark = "B"
+    elif(score <= 75 or score<= 94):
+        mark = "A"
+    elif(score <= 95 or score<= 100):
+        mark = "A+"
+    
 
 print("Your Pass Mark is : ",mark)
+print("\n{x}".format(x="*"*61))
 
 
 

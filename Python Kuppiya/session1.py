@@ -124,18 +124,32 @@
 # else:
 # print("invalid input")
 
-x = int(input("Enter 1st no: "))
-print("1 - Add\n2 - Substract\n3 - Multiply\n4 - Divide\nSelect perefered operetor by number")
-opp = int(input("Enter your option: "))
-y = int(input("Enter 2nd no: "))
-if(opp == 1):
-    print("{} + {} =".format(x,y),x+y)
-elif(opp == 2): 
-    print("{} - {} =".format(x,y),x-y)
-elif(opp == 3): 
-    print("{} * {} =".format(x,y),x*y)
-elif(opp == 4): 
-    print("{} - {} =".format(x,y),x/y)
-else:
-    print("something went wrong. Try Again")
+# x = int(input("Enter 1st no: "))
+# print("1 - Add\n2 - Substract\n3 - Multiply\n4 - Divide\nSelect perefered operetor by number")
+# opp = int(input("Enter your option: "))
+# y = int(input("Enter 2nd no: "))
+# if(opp == 1):
+#     print("{} + {} =".format(x,y),x+y)
+# elif(opp == 2): 
+#     print("{} - {} =".format(x,y),x-y)
+# elif(opp == 3): 
+#     print("{} * {} =".format(x,y),x*y)
+# elif(opp == 4): 
+#     print("{} - {} =".format(x,y),x/y)
+# else:
+#     print("something went wrong. Try Again")
+
+print("{x} Pass Mark Genarator {x}\n".format(x="*"*20))
+score = int(input("Enter your Score : "))
+mark = "Undifine"
+if (score>= 0 or score<=100 ):
+    if(score < 35):
+        mark = "Fail"
+    elif(score >= 35 or score<= 45):
+        mark = "C"
+
+print("Your Pass Mark is : ",mark)
+
+
+
 

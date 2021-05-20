@@ -139,26 +139,27 @@
 # else:
 #     print("something went wrong. Try Again")
 
-print("{x} Pass Mark Genarator {x}\n".format(x="*"*20))
-score = int(input("Enter your Score : "))
-mark = "Undifine"
-if (score>= 0 or score<=100 ):
-    if(score < 35):
-        mark = "Fail"
-    elif(score <= 35 or score<= 44):
-        mark = "S"
-    elif(score <= 45 or score<= 64):
-        mark = "C"
-    elif(score <= 65 or score<= 74):
-        mark = "B"
-    elif(score <= 75 or score<= 94):
-        mark = "A"
-    elif(score <= 95 or score<= 100):
-        mark = "A+"
-    
+# print("{x} Pass Mark Genarator {x}\n".format(x="*"*20))
+# score = int(input("Enter your Score : "))
+# mark = "Fuck You"
+# if (0<=score<=100):
+#     if(score < 35):
+#         mark = "Fail"
+#     elif(35<=score<= 44):
+#         mark = "S"
+#     elif(score <= 45 or score<= 64):
+#         mark = "C"
+#     elif(score <= 65 or score<= 74):
+#         mark = "B"
+#     elif(score <= 75 or score<= 94):
+#         mark = "A"
+#     elif(score <= 95 or score<= 100):
+#         mark = "A+"
+#     print("Your Pass Mark is : ",mark)
+# else:
+#     print("Your inserted score was incorrect")
 
-print("Your Pass Mark is : ",mark)
-print("\n{x}".format(x="*"*61))
+# print("\n{x}".format(x="*"*61))
 
 
 

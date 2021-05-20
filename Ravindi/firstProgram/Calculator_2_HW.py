@@ -25,23 +25,26 @@ else:
 
 
 #need to find the error
-# x = int(input("Enter 1st no: "))
-# print("1 - Add\n2 - Substract\n3 - Multiply\n4 - Divide\nSelect perefered operetor by number")
-# opp = int(input("Enter your option: "))
+# this is wrong
+# need to run a loop in fisrt if 
+x = int(input("Enter 1st no: "))
+print("1 - Add\n2 - Substract\n3 - Multiply\n4 - Divide\nSelect perefered operetor by number")
+opp = int(input("Enter your option: "))
 
-# if(opp != 1 | opp != 2 | opp != 3 | opp != 4 ):
-#     print("Check the opertor no and try again")
-#     opp = int(input("Enter your option: "))
-# else:
-#     y = int(input("Enter 2nd no: "))
+if(opp != 1 | opp != 2 | opp != 3 | opp != 4 ):
+    print("Check the opertor no and try again")
+    opp = int(input("Enter your option: "))
+else:
+    y = int(input("Enter 2nd no: "))
 
-# if(opp == 1):
-#     print("{} + {} =".format(x,y),x+y)
-# elif(opp == 2): 
-#     print("{} - {} =".format(x,y),x-y)
-# elif(opp == 3): 
-#     print("{} * {} =".format(x,y),x*y)
-# elif(opp == 4): 
-#     print("{} - {} =".format(x,y),x/y)
-# else: 
-#     print("something went wrong. Try Again")
+if(opp == 1):
+    print("{} + {} =".format(x,y),x+y)
+elif(opp == 2): 
+    print("{} - {} =".format(x,y),x-y)
+elif(opp == 3): 
+    print("{} * {} =".format(x,y),x*y)
+elif(opp == 4): 
+    print("{} - {} =".format(x,y),x/y)
+else: 
+    print("something went wrong. Try Again")
+

@@ -5,7 +5,7 @@ print("{x} Grade Calculator {x}\n".format(x="*"*10))
 
 marks = int(input("Enter your module mark: "))
 
-if(marks>=0 & marks<=100):
+if(marks>=0 and marks<=100):
     print("Hello Student\n")
     if(marks>=75):
         print("Fabulous! Your grade is A")

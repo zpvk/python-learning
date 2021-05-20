@@ -3,7 +3,7 @@
 
 print("{x} Grade Calculator {x}\n".format(x="*"*10))
 
-marks = int(input("Enter your module mark: "))
+marks = int(input("Enter your module mark : "))
 
 if(marks>=0 and marks<=100):
     print("Hello Student\n")

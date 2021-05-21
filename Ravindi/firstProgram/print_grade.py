@@ -21,3 +21,4 @@ else:
     print("invalid input")
 
 print("\n{x} Have a good day {x}".format(x="*"*10))
+

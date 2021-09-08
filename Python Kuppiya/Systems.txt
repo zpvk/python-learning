@@ -1,0 +1,7 @@
+# ATM System
+1. Display ATM functions
+    Password check:
+        Blance = 1000
+        Diposit
+        Widrow
+        

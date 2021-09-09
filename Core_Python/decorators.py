@@ -8,3 +8,6 @@ def anncounce(f):
 @anncounce
 def hello():
     print("Hello world")
+    
+
+hello()

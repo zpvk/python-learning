@@ -4,3 +4,4 @@
 *.json
 .DS_Store
 rasa-for-beginers/venv/bin/__pycache__/jp.cpython-39.pyc
+*.pyc
